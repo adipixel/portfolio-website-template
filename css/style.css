@@ -1,0 +1,100 @@
+.logo-container {
+}
+
+.name-container {
+    text-align: right;
+}
+
+.name {
+    font-family: 'Raleway', sans-serif;
+    color: #2d3c49;
+    letter-spacing: 1px;
+    display: block;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 3.2em;
+}
+
+.sub-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    color: #2d3c49;
+    display: block;
+    font-weight: 600;
+}
+
+.navbar-customized {
+    border-bottom: 2px solid #7d97ad;
+    padding: 15px 0;
+    margin: 0 0 15px 0;
+}
+
+.work-title {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 15px 0 5px 5px;
+    color: #7d97ad;
+}
+
+.work-link {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 5px 0 15px 0;
+    color: #2d3c49;
+}
+
+.figure-title {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0 0 0;
+    color: #2d3c49;
+}
+
+.figure-caption {
+    text-align: center;
+    color: #2d3c49;
+}
+
+.footer {
+    height: 100px;
+    border-top: 1px solid #7d97ad;
+    margin-top: 25px;
+    background-color: #efefef;
+}
+
+/*for xs*/
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/*for sm*/
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+
+    .name {
+        font-size: 4em;
+    }
+
+    .sub-text {
+        font-size: 2em;
+    }
+}
+
+/*for md*/
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.1em;
+    }
+}
+
+/*for lg*/
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
