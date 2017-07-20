@@ -63,6 +63,26 @@
     background-color: #efefef;
 }
 
+.fa{
+    font-size: 1.7em;
+    margin: 10px 5px;
+}
+
+.social-icons{
+    vertical-align: middle;
+}
+
+.website-link-icon{
+    vertical-align: middle;
+    text-align: right;
+}
+
+.link-font{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+
+}
+
 /*for xs*/
 @media screen and (max-width: 767px) {
     body {
