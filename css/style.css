@@ -58,14 +58,18 @@
 
 .footer {
     height: 100px;
-    border-top: 1px solid #7d97ad;
+    border-top: 1px solid #a4c7e1;
     margin-top: 25px;
-    background-color: #efefef;
+    background-color: #f7f7f7;
 }
 
 .fa{
     font-size: 1.7em;
-    margin: 10px 5px;
+    margin: 4px 2px;
+}
+
+.fa:first-child {
+    margin: 10px 2px 4px;
 }
 
 .social-icons{
@@ -80,13 +84,24 @@
 .link-font{
     font-family: 'Raleway', sans-serif;
     font-size: 0.9em;
-
 }
 
+.copyrights-holder{
+    margin: 15px 0 0 0;
+}
 /*for xs*/
 @media screen and (max-width: 767px) {
     body {
         font-size: 0.9em;
+    }
+
+    .social-icons{
+        padding: 5px 0 0 0;
+        text-align: center;
+    }
+
+    .website-link-icon{
+        text-align: center;
     }
 }
 
